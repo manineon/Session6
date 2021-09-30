@@ -1,0 +1,29 @@
+body{
+    background-color:black;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.item h1{
+    color:azure;
+}
+
+.item table{
+    width: 30%;
+    color: white;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.item table tr{
+    background-color: rgb(96, 96, 247);
+}
+
+.item table tr td{
+    font-size: 1.2rem;
+    font-style: italic;
+}
